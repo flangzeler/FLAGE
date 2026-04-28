@@ -5,8 +5,6 @@ A Game Engine.
 
 FLAGE is a research-oriented game engine focused on low-level hardware optimization, cache-friendly data structures, and custom systems architecture. 
 
-![Engine Preview](https://via.placeholder.com/800x450.png?text=FLAGE+Engine+Screenshot+Coming+Soon)
-
 ## 🚀 Key Features
 - **Custom ECS (ENT):** A data-oriented Entity Component System designed for maximum cache locality and SIMD-friendly processing.
 - **FLAME Math Library:** A hand-optimized linear algebra library utilizing **SSE/AVX (SIMD)** instructions for vertex and matrix calculations.
