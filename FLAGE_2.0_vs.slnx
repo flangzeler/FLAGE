@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="FLAGE_2.0_vs.vcxproj" Id="4ecb30a6-9b30-425c-867a-2aa2a57cf123" />
+</Solution>
