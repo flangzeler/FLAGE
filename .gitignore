@@ -433,5 +433,7 @@ FodyWeavers.xsd
 
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
-
+# Explicitly allow libraries in the dependencies folder
+!EXTERNAL_DEPENDENCIES/**/*.lib
+!EXTERNAL_DEPENDENCIES/**/*.dll
 # End of https://www.toptal.com/developers/gitignore/api/visualstudio,c++
