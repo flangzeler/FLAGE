@@ -19,10 +19,10 @@ FLAGE is a research-oriented game engine focused on low-level hardware optimizat
 ## 📈 Roadmap (Summer 2026)
 - [ ] **Resource Layer (Starting May 1st):** Implementing a multi-threaded resource loader with custom memory arenas.
 - [ ] **Integration** Integration with my custom math and ecs library.
-- [ ] **Hybrid renderer:** A renderer supporting clustered Defered and forward + Rendering.
-- [ ] **Job system:** For multi core acess.
-- [ ] **Lower Level Optimization:** Integrqation with MASMx64 assembly for lower level work and optimization.
-- [ ] **RHI** Support with OP4enGL and Vulkan.
+- [ ] **Hybrid renderer:** A renderer supporting clustered Deffered and forward + Rendering.
+- [ ] **Job system:** For multi core access.
+- [ ] **Lower Level Optimization:** Integration with MASMx64 assembly for lower level work and optimization.
+- [ ] **RHI** Support with OpenGL and Vulkan.
 
 ## 📝 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
