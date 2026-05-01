@@ -193,6 +193,7 @@
     <ClInclude Include="ENGINE\PLATEFORM_INDEPENDENCE\HEADERS\RHI.h" />
     <ClInclude Include="ENGINE\CORE\HEADERS\logger.h" />
     <ClInclude Include="ENGINE\CORE\HEADERS\pch.h" />
+    <ClInclude Include="ENGINE\RESOURCE\Headers\resource_components.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="cpp.hint" />

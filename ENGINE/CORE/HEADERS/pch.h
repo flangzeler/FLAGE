@@ -47,5 +47,6 @@
 #include "IEngine.h"
 #include "RHI.h"
 #include "entt.h"
+#include "resource_components.h"
 #include "resources.h"
 #include "window.h"

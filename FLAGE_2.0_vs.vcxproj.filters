@@ -71,6 +71,9 @@
     <ClInclude Include="ENGINE\CORE\HEADERS\flame.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ENGINE\RESOURCE\Headers\resource_components.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
