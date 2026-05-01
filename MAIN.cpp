@@ -8,7 +8,7 @@
 #pragma comment(lib, "gdi32.lib")
 #pragma comment(lib, "shell32.lib")
 #include "F:\uploads\FLAGE\FLAGE\ENGINE\RESOURCE\Headers\resource_components.h"
-#include "resources.h"
+#include "F:\uploads\FLAGE\FLAGE\ENGINE\RESOURCE\Headers\resources.h"
 
 using namespace flame;
 //solve exception throw with OPENGL
@@ -25,7 +25,7 @@ int main()
 	Logger       ::Init();
 	MemoryManager::Init(64 * 1024 * 1024, 32 * 1024 * 1024); 
 	ResourceManager rm;
-	rm.init(4,4);
+	rm.Init(4,4);
 
 	Str handle = hash("brick");
 	auto tex = rm.LoadOrGet<Texture>(
