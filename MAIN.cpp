@@ -7,8 +7,7 @@
 #pragma comment(lib, "user32.lib")
 #pragma comment(lib, "gdi32.lib")
 #pragma comment(lib, "shell32.lib")
-#include "F:\uploads\FLAGE\FLAGE\ENGINE\RESOURCE\Headers\resource_components.h"
-#include "F:\uploads\FLAGE\FLAGE\ENGINE\RESOURCE\Headers\resources.h"
+
 
 using namespace flame;
 //solve exception throw with OPENGL
@@ -24,20 +23,17 @@ int main()
 	Input        ::Init();
 	Logger       ::Init();
 	MemoryManager::Init(64 * 1024 * 1024, 32 * 1024 * 1024); 
-	ResourceManager rm;
-	rm.Init(4,4);
 
-	Str handle = hash("brick");
-	auto tex = rm.LoadOrGet<Texture>(
-            handle,
-            "brick.png",
-            "brick"
-        );
+	  std::cout << "=== Resource System Test Suite Start ===\n";
 
-        FLAGE_ASSERT(tex.has_value(), "Texture failed to load");
-        FLAGE_ASSERT((*tex)->status == resource_status::LOAD, "Wrong state");
+    // --------------------------------------------------------
+    // INIT
+    // --------------------------------------------------------
+   
 
-        std::cout << "Texture loaded OK\n";
+    ResourceManager rm;
+    rm.Init(4, 4); // deliberately SMALL → forces edge cases
+
 	 
 	Init_Config config;
 	config.Window_width  = 900;

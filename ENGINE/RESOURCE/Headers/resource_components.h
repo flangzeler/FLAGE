@@ -55,7 +55,11 @@ public:
     }
 
     void Unload(PoolAllocator& pool) {
+        if (status == resource_status::UNLOAD)
+            return;
+
         status = resource_status::UNLOAD;
+
         this->~Texture();
         pool.Free(this);
     }

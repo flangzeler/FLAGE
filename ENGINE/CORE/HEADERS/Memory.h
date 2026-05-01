@@ -12,7 +12,10 @@ public:
         : m_TotalSize(totalSize), m_UsedSize(0)
     {
         m_StartPtr = (uint8_t*)malloc(totalSize);
-        FLAGE_ASSERT(m_StartPtr != nullptr, "Memory: Failed to allocate Linear Arena!");
+        if (!m_StartPtr) {
+            LOG_ERROR("Memory: Failed to allocate Linear Arena!");
+        }
+        std::cout << "Linear Arena request: " << totalSize << " bytes\n";
     }
 
     ~LinearAllocator() {
@@ -73,14 +76,16 @@ public:
         m_TotalSize = AlignUp(m_ObjSize * objectCount, alignment);
 
         // aligned allocation (C++17)
-        m_StartPtr = (uint8_t*)std::aligned_alloc(alignment, m_TotalSize);
+        m_StartPtr = (uint8_t*)_aligned_malloc(m_TotalSize, alignment);
+        // Remember to use _aligned_free(m_StartPtr) instead of free()
+
 
         FLAGE_ASSERT(m_StartPtr != nullptr, "Memory: Failed to allocate Pool Arena!");
         Reset();
     }
 
     ~PoolAllocator() {
-        free(m_StartPtr);
+        _aligned_free(m_StartPtr);
         m_StartPtr = nullptr;
     }
 

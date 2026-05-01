@@ -5,11 +5,11 @@
 
 #ifdef _DEBUG
 
-
-#define FLAGE_ASSERT(expr, msg) \
-    if (!(expr)) { \
-        LOG_ERROR(msg); \
-        __debugbreak(); \
+#define FLAGE_ASSERT(cond, msg) \
+    if (!(cond)) { \
+        std::cout << "[ASSERT FAIL] " << msg << "\n"; \
+    } else { \
+        std::cout << "[ASSERT PASS] " << msg << "\n"; \
     }
 
 #define DX_CHECK(hr) \

@@ -80,10 +80,11 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp23</LanguageStandard>
-      <AdditionalIncludeDirectories>F:\FLAGE\New folder\FLAGE_2.0_vs\EXTERNAL_DEPENDENCIES\HEADERS;F:\FLAGE\New folder\FLAGE_2.0_vs\ENGINE\SYSTEM\HEADERS;%(AdditionalIncludeDirectories);F:\FLAGE\New folder\FLAGE_2.0_vs\EXTERNAL_DEPENDENCIES\HEADERS;F:\FLAGE\New folder\FLAGE_2.0_vs\ENGINE\RENDERER\HEADERS;F:\FLAGE\New folder\FLAGE_2.0_vs\ENGINE\SYSTEM\HEADERS;F:\FLAGE\New folder\FLAGE_2.0_vs\ENGINE\ENGINE_SYSTEMS\Headers;F:\FLAGE\New folder\FLAGE_2.0_vs\ENGINE\CORE\HEADERS</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\uploads\FLAGE\FLAGE\ENGINE\CORE\HEADERS;F:\uploads\FLAGE\FLAGE\ENGINE\PLATEFORM_INDEPENDENCE\HEADERS;F:\uploads\FLAGE\FLAGE\ENGINE\RENDERER\HEADERS;F:\uploads\FLAGE\FLAGE\ENGINE\RESOURCE\Headers;F:\uploads\FLAGE\FLAGE\EXTERNAL_DEPENDENCIES\HEADERS</AdditionalIncludeDirectories>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+      <BuildStlModules>true</BuildStlModules>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -103,11 +104,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard>stdcpp23</LanguageStandard>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>;F:\FLAGE\New folder\FLAGE_2.0_vs\EXTERNAL_DEPENDENCIES\HEADERS;F:\FLAGE\New folder\FLAGE_2.0_vs\ENGINE\RENDERER\HEADERS;F:\FLAGE\New folder\FLAGE_2.0_vs\ENGINE\SYSTEM\HEADERS;F:\FLAGE\New folder\FLAGE_2.0_vs\ENGINE\ENGINE_SYSTEMS\Headers;F:\FLAGE\New folder\FLAGE_2.0_vs\ENGINE\CORE\HEADERS</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\uploads\FLAGE\FLAGE\ENGINE\CORE\HEADERS;F:\uploads\FLAGE\FLAGE\ENGINE\PLATEFORM_INDEPENDENCE\HEADERS;F:\uploads\FLAGE\FLAGE\ENGINE\RENDERER\HEADERS;F:\uploads\FLAGE\FLAGE\ENGINE\RESOURCE\Headers;F:\uploads\FLAGE\FLAGE\EXTERNAL_DEPENDENCIES\HEADERS</AdditionalIncludeDirectories>
+      <BuildStlModules>true</BuildStlModules>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -126,10 +128,11 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp23</LanguageStandard>
-      <AdditionalIncludeDirectories>F:\FLAGE\New folder\FLAGE_2.0_vs\EXTERNAL_DEPENDENCIES\HEADERS;F:\FLAGE\New folder\FLAGE_2.0_vs\ENGINE\CORE\HEADERS;%(AdditionalIncludeDirectories);F:\FLAGE\New folder\FLAGE_2.0_vs\ENGINE\RENDERER\HEADERS;F:\FLAGE\New folder\FLAGE_2.0_vs\ENGINE\RESOURCE\Headers;F:\FLAGE\New folder\FLAGE_2.0_vs\ENGINE\PLATEFORM_INDEPENDENCE\HEADERS;F:\FLAGE\New folder\FLAGE_2.0_vs\ENGINE\CORE\HEADERS</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\uploads\FLAGE\FLAGE\ENGINE\CORE\HEADERS;F:\uploads\FLAGE\FLAGE\ENGINE\PLATEFORM_INDEPENDENCE\HEADERS;F:\uploads\FLAGE\FLAGE\ENGINE\RENDERER\HEADERS;F:\uploads\FLAGE\FLAGE\ENGINE\RESOURCE\Headers;F:\uploads\FLAGE\FLAGE\EXTERNAL_DEPENDENCIES\HEADERS</AdditionalIncludeDirectories>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+      <BuildStlModules>true</BuildStlModules>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -149,11 +152,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard>stdcpp23</LanguageStandard>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>;F:\FLAGE\New folder\FLAGE_2.0_vs\EXTERNAL_DEPENDENCIES\HEADERS;F:\FLAGE\New folder\FLAGE_2.0_vs\ENGINE\RENDERER\HEADERS;F:\FLAGE\New folder\FLAGE_2.0_vs\ENGINE\SYSTEM\HEADERS;F:\FLAGE\New folder\FLAGE_2.0_vs\ENGINE\ENGINE_SYSTEMS\Headers;F:\FLAGE\New folder\FLAGE_2.0_vs\ENGINE\CORE\HEADERS</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>F:\uploads\FLAGE\FLAGE\ENGINE\CORE\HEADERS;F:\uploads\FLAGE\FLAGE\ENGINE\PLATEFORM_INDEPENDENCE\HEADERS;F:\uploads\FLAGE\FLAGE\ENGINE\RENDERER\HEADERS;F:\uploads\FLAGE\FLAGE\ENGINE\RESOURCE\Headers;F:\uploads\FLAGE\FLAGE\EXTERNAL_DEPENDENCIES\HEADERS</AdditionalIncludeDirectories>
+      <BuildStlModules>true</BuildStlModules>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
